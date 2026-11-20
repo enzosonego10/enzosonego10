@@ -1,0 +1,60 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Banner visual de EzSonego</title>
+  <desc id="desc">Fundo escuro com textura de pixels, uma janela de terminal e a assinatura ENZOSONEGO10.</desc>
+
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#1C2430" stroke-width="1" />
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117" />
+      <stop offset="0.72" stop-color="#0D1117" />
+      <stop offset="1" stop-color="#101820" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="8" fill="url(#fade)" />
+  <rect width="1200" height="320" rx="8" fill="url(#grid)" opacity="0.48" />
+
+  <path d="M0 252H1200" stroke="#27313D" stroke-width="1" />
+  <path d="M0 64H1200" stroke="#27313D" stroke-width="1" />
+
+  <text x="52" y="54" fill="#8B949E" font-family="monospace" font-size="14" letter-spacing="3">// PROFILE README</text>
+  <text x="52" y="104" fill="#F0F6FC" font-family="monospace" font-size="30" font-weight="700" letter-spacing="5">ENZOSONEGO10</text>
+  <text x="54" y="135" fill="#00D9FF" font-family="monospace" font-size="14" letter-spacing="2">BUILD / LEARN / SHARE</text>
+
+  <g opacity="0.7">
+    <rect x="52" y="190" width="8" height="8" fill="#00D9FF" />
+    <rect x="68" y="190" width="8" height="8" fill="#F0F6FC" />
+    <rect x="84" y="190" width="8" height="8" fill="#8B949E" />
+    <path d="M52 218H196" stroke="#3A4654" stroke-width="2" stroke-dasharray="5 8" />
+  </g>
+
+  <g transform="translate(780 48)">
+    <rect x="0" y="0" width="413" height="194" rx="5" fill="#111821" stroke="#485463" stroke-width="2" />
+    <rect x="0" y="0" width="413" height="31" rx="5" fill="#1B2530" />
+    <path d="M0 31H413" stroke="#485463" stroke-width="2" />
+    <circle cx="20" cy="15" r="5" fill="#6E7681" />
+    <circle cx="38" cy="15" r="5" fill="#6E7681" />
+    <circle cx="56" cy="15" r="5" fill="#6E7681" />
+    <text x="82" y="20" fill="#8B949E" font-family="monospace" font-size="12">enzo@github:~</text>
+
+    <text x="26" y="67" fill="#00D9FF" font-family="monospace" font-size="17">$ whoami</text>
+    <text x="26" y="93" fill="#F0F6FC" font-family="monospace" font-size="16">enzosonego10</text>
+    <text x="26" y="128" fill="#00D9FF" font-family="monospace" font-size="17">$ ls projects/</text>
+    <text x="26" y="155" fill="#8B949E" font-family="monospace" font-size="15">orgalume  point-pet  cartoon-snacks</text>
+    <rect x="26" y="174" width="10" height="17" fill="#00D9FF" />
+  </g>
+
+  <g opacity="0.48">
+    <path d="M640 268C710 240 768 242 824 266C888 293 936 298 1002 270C1054 248 1102 243 1150 256" stroke="#F0F6FC" stroke-width="4" stroke-linecap="square" stroke-dasharray="2 9" />
+    <path d="M640 280C706 256 766 258 822 281C880 304 936 307 1000 282C1050 262 1100 258 1150 270" stroke="#00D9FF" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 11" />
+    <rect x="1006" y="266" width="6" height="6" fill="#F0F6FC" />
+    <rect x="1030" y="258" width="6" height="6" fill="#F0F6FC" />
+    <rect x="1054" y="252" width="6" height="6" fill="#F0F6FC" />
+    <rect x="1078" y="250" width="6" height="6" fill="#F0F6FC" />
+    <rect x="1102" y="252" width="6" height="6" fill="#F0F6FC" />
+  </g>
+
+  <text x="52" y="286" fill="#6E7681" font-family="monospace" font-size="12" letter-spacing="2">NOISE IS DATA / KEEP SHIPPING</text>
+</svg>
